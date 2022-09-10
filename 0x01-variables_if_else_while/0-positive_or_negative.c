@@ -14,7 +14,7 @@
 
 * Description: using the main function
 
-* this program prints "Programming is positive, zero, or negative
+* this program prints "Programming is positive, zero, or  negative
 
 * Return: 0
 
@@ -32,7 +32,7 @@ srand(time(0));
 
 n = rand() - RAND_MAX / 2;
 
-  /* your code goes there */
+/* your code goes there */
 
 if (n > 0)
 

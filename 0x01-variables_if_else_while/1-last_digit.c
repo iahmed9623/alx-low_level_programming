@@ -1,66 +1,28 @@
 #include <stdlib.h>
-
-
-
 #include <time.h>
-
-
-
 #include <stdio.h>
 
-
-
 /**
-
-
-
- * main - Prints random number to variable
-
-
-
- *
-
-
-
- * Return: Always (Successful)
-
-
-
- */
-
-
-
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
+*/
 int main(void)
-
-
-
 {
 int n;
-char last[] = "Last digit of";
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("%s %d is %d and is ", last, n, n % 10);
-if (n % 10 > 5)
+/* your code goes there */
+if (n > 0)
 {
-printf("greater than 5\n");
+printf("%i is positive\n", n);
 }
-
-
-else if (n % 10 == 0)
-
+else if (n == 0)
 {
-
-printf("0\n");
-
+printf("%i is zero\n", n);
 }
-
-else
-
+else if (n == 0)
 {
-
-printf("less than 6 and not 0\n");
-
-}
-
-return (0)
