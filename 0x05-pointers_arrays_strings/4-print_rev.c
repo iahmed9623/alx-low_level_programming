@@ -5,7 +5,7 @@
 /**
  *print_rev - prints a string in reverse order
  *@s: string to reverse
- @Return Nothing 
+ *@Return Nothing 
  */
 
 void print_rev(char *s);
