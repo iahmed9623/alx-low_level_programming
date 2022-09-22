@@ -25,6 +25,7 @@ break;
 }
 else
 i++;
+
 }
 return (diff);
 }
