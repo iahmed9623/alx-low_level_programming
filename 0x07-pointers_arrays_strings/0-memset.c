@@ -1,19 +1,22 @@
-#include "main.c"
+#include "main."
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ *_memset - fills memory with a constant byte n amount of times
  *
- * Return: Nothing
+ *@s: pointer that has the address of the memory to fill
+ *@b: constant byte that will be written into the momory
+ *@n: amount of times the byte will be written into the memory
+ *
+ *Return: address of the memory where thebyte was written
  */
 
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-while (n)
+unsigned int i;
+
+for (i = 0; i < n; i++)
 {
-s[n - 1] = b;
-n--;
+s[i] = b;
 }
 return (s);
 }
