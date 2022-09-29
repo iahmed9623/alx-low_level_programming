@@ -15,11 +15,12 @@ if (n <= 1)
 return (0);
 return (is_prime(n, start));
 }
+
 /**
  * is_prime - returns the 1 if n is prime
  * @n: number to be checked
  * @start: number to start checking from
- * 
+ *
  * Return: 1 if n is prime, 0 otherwise
  */
 
